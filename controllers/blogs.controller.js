@@ -1,4 +1,7 @@
-const BlogModel = require('../model/BlogsSchema');
+const BlogModel = require('../model/blogsSchema');
+
+console.log("BlogModel:", BlogModel);
+
 var jwt = require("jsonwebtoken");
 const getBlogs = async (req, res) => {
   try {
